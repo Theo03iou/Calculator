@@ -12,3 +12,13 @@ console.log(add(5000, 300));
 console.log(subtract(5000, 300));
 console.log(multiply(5000, 300));
 console.log(divide(5000, 300));
+
+let test = function() {
+    console.log("fasefasefasef");
+}
+
+let test1 = document.querySelectorAll('.number');
+test1.forEach(number => {
+    number.addEventListener('click', test)
+})
+
