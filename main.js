@@ -13,12 +13,28 @@ console.log(subtract(5000, 300));
 console.log(multiply(5000, 300));
 console.log(divide(5000, 300));
 
-let test = function() {
-    console.log("fasefasefasef");
-}
 
-let test1 = document.querySelectorAll('.number');
-test1.forEach(number => {
-    number.addEventListener('click', test)
+
+let numberClass = document.querySelectorAll('.number');
+numberClass.forEach(number => {
+    number.addEventListener('click', function(e) {
+        e.preventDefault()
+        console.log(number.innerHTML);
+    })
 })
 
+let signClass = document.querySelectorAll('.sign');
+signClass.forEach(sign => {
+    sign.addEventListener('click', function(e){
+        e.preventDefault()
+        console.log(sign.innerHTML)
+    })
+})
+
+let equalsClass = document.querySelectorAll('.equals');
+equalsClass.forEach(equals => {
+    equals.addEventListener('click', function(e) {
+        e.preventDefault()
+        console.log(equals.innerHTML);
+    })
+})

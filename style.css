@@ -3,7 +3,47 @@
     padding: 0;;
 }
 
+.calculator {
+    margin: 50px 0 0 325px;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 800px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.resultScreen {
+    display: flex;
+    flex-grow: 4;
+    border-style: solid;
+    justify-content: center;
+}
 
 .number {
-    padding: 50px;
+    display: flex;
+    flex-grow: 1;
+    border-style: solid;
+    justify-content: space-between;
 }
+
+.sign {
+    display: flex;
+
+    flex-grow: 1;
+    border-style: solid;
+    justify-content: center;
+/* padding: 50px;  */
+    /* font-size: 2rem; */
+}
+
+.equals {
+    display: flex;
+    flex-grow: 1;
+    border-style: solid;
+    justify-content: center;
+    /* padding: 50px; */
+}
+
