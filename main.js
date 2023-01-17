@@ -21,7 +21,7 @@ numberClass.forEach(number => {
         } else {
             num2 += number.innerHTML;
             resultScreenClass.textContent = num2
-
+            console.log("poop");
             console.log(num2);
         }
         
