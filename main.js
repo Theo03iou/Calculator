@@ -15,13 +15,12 @@ numberClass.forEach(number => {
     number.addEventListener('click', function(e) {
         e.preventDefault()
         if (numbers.isComplete == false) {
-            num1 += number.innerHTML
+            num1 += number.textContent
             resultScreenClass.textContent = num1
             console.log(num1);    
         } else {
-            num2 += number.innerHTML;
+            num2 += number.textContent;
             resultScreenClass.textContent = num2
-            console.log("poop");
             console.log(num2);
         }
         
