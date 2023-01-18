@@ -72,7 +72,7 @@ signClass.forEach(sign => {
     })
 })
 
-let resultScreenClass = document.querySelector(".resultScreen")
+let resultScreenClass = document.querySelector(".resultResult")
 let equalsClass = document.querySelectorAll('.equals');
 equalsClass.forEach(equals => {
     equals.addEventListener('click', function(e) {
