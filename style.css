@@ -19,7 +19,7 @@
 
 .resultScreen {
     text-align: right;
-    height: 80px;
+    height: 120px;
     justify-content: center;
     background-color: white;
     margin-bottom: 20px;
@@ -28,6 +28,10 @@
 
 .resultScreen p {
     margin: 20px;
+}
+
+.resultScreen .resultCalc {
+    margin-right: 20px;
 }
 
 .buttons {
@@ -45,6 +49,10 @@
     border-radius: 10%;
 }
 
+.number:hover {
+    background-color:rgb(179, 179, 179);
+}
+
 .number:active{
     background-color: rgb(123, 123, 123);
 }
@@ -56,6 +64,10 @@
     justify-content: center;
     background-color: lightgray;
     border-radius: 10%;
+}
+
+.sign:hover {
+    background-color:rgb(179, 179, 179);
 }
 
 .sign:active {
@@ -71,6 +83,10 @@
     padding: 10px;
 }
 
+.equals:hover {
+    background-color:rgb(179, 179, 179);
+}
+
 .equals:active {
     background-color: rgb(123, 123, 123);
 }
@@ -83,6 +99,10 @@
     font-size: 1rem;
     text-align: center;
     padding: 10px;
+}
+
+.clear:hover {
+    background-color:rgb(206, 113, 113);
 }
 
 .clear:active {
